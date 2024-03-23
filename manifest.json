@@ -1,0 +1,18 @@
+{
+    "name": "Clock LD",
+    "short_name": "Clock LD",
+    "description": "Clock LD (端末のライト,ダークモードに対応して背景色と文字色が変更します)",
+    "start_url": "https://pp-pixel.github.io/clockld/",
+    "id": "Clock LD",
+    "display": "fullscreen",
+    "display_override": ["window-controls-overlay"],
+    "background_color": "#202124",
+    "theme_color": "#202124",
+    "icons": [
+        {
+            "src": "https://pp-pixel.github.io/clockld/clockld.png",
+            "sizes": "966x966",
+            "type": "image/png"
+        }
+    ]
+}
