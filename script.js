@@ -31,3 +31,13 @@ function clock() {
 }
 // 上記のclock関数を1000ミリ秒ごと(毎秒)に実行
 setInterval(clock, 1000);
+
+document.addEventListener('click', function () {
+    document.getElementById('sleep-prevent-video-ios').play();
+    document.getElementById('sleep-prevent-video-android').play();
+});
+
+setInterval(function () {
+    document.getElementById('sleep-prevent-video-ios').play();
+    document.getElementById('sleep-prevent-video-android').play();
+}, 20000);  // 20秒ごと
