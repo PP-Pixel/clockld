@@ -44,7 +44,8 @@ body {
     /* font-family: "Wallpoet", sans-serif;*/
     font-weight: 400;
     font-style: normal;
-    cursor: none;
+    cursor: default;
+    user-select: none;
 }
 
 .clock {
