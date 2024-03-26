@@ -23,19 +23,20 @@
 <body>
     <div class="pc">
         <div class="clock">
-            <div id="clock_time"></div>
-            <div id="clock_date"></div>
+            <div id="clock_time">00:00:00</div>
+            <div id="clock_date">0000/00/00 (San)</div>
         </div>
     </div>
     <div class="sp">
         <div class="clock_sp">
-            <div id="clock_time_sp"></div>
-            <div id="clock_time_sp2" style="font-size: 20px; text-align: right;"></div>
-            <div id="clock_date_sp"></div>
+            <div id="clock_time_sp">00<wbr>00</div>
+            <div id="clock_time_sp2" style="font-size: 20px; text-align: right;">00</div>
+            <div id="clock_date_sp">0000/00/00 (San)</div>
         </div>
     </div>
     
     <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="konami.js"></script>
     <script>if ("serviceWorker" in navigator) { window.addEventListener("load", function () { navigator.serviceWorker.register("./sw.js").then(function (registration) {/* Registration was successful*/console.log("ServiceWorker registration successful with scope: ", registration.scope); }, function (err) {/* registration failed :(*/console.log("ServiceWorker registration failed: ", err); }); }); };</script>
 </body>
 
