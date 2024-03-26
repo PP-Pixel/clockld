@@ -9,7 +9,7 @@
 /* Monoton */
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 /* Wallpoet */
-@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap'); */
 
 .pc {
     display: block !important;
@@ -45,12 +45,12 @@ body {
     /* font-family: "Workbench", sans-serif; */
     /* font-family: "Sacramento", cursive; */
     /* font-family: "Monoton", sans-serif; */
-    /* font-family: "Wallpoet", sans-serif;*/
     font-weight: 400;
     font-style: normal;
     cursor: none;
     user-select: none;
 }
+/* font-family: "Wallpoet", sans-serif;*/
 
 .clock {
     /* width: 100%;
