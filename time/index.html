@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head prefix="og: https://ogp.me/ns#">
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:url" content="https://pp-pixel.github.io/clockld/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Clock LD time">
+    <meta property="og:site_name" content="PP Pixel">
+    <meta property="og:description" content="Clock Light&Dark (端末のライト,ダークモードに対応して背景色と文字色が変更します。対応したブラウザが必要です。)">
+    <meta property="og:image" content="https://pp-pixel.github.io/clockld/clockld.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="description" content="Clock Light&Dark (端末のライト,ダークモードに対応して背景色と文字色が変更します。対応したブラウザが必要です。)">
+    <title>Clock Light&Dark time</title>
+    <link rel="stylesheet" href="https://pp-pixel.github.io/clockld/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap');
+        body {
+            font-family: "Rubik Scribble", "Roboto", sans-serif, system-ui;
+        }
+    </style>
+    <link rel="icon" href="https://pp-pixel.github.io/clockld/clockld.png">
+    <link rel="apple-touch-icon" href="https://pp-pixel.github.io/clockld/clockld.png" sizes="966x966">
+    <link rel="manifest" href="https://pp-pixel.github.io/clockld/manifest.json">
+</head>
+
+<body>
+    <div class="pc">
+        <div class="clock">
+            <div id="clock_time" style="font-size: 300px;">00:00:00</div>
+            <!-- <div id="clock_date"></div> -->
+        </div>
+    </div>
+    <div class="sp">
+        <div class="clock_sp">
+            <div id="clock_time_sp">00<wbr>00</div>
+            <div id="clock_time_sp2" style="font-size: 20px; text-align: right;">00</div>
+            <!-- <div id="clock_date_sp"></div> -->
+        </div>
+    </div>
+
+    <script type="text/javascript" src="./script.js"></script>
+    <script>if ("serviceWorker" in navigator) { window.addEventListener("load", function () { navigator.serviceWorker.register("https://pp-pixel.github.io/clockld/sw.js").then(function (registration) {/* Registration was successful*/console.log("ServiceWorker registration successful with scope: ", registration.scope); }, function (err) {/* registration failed :(*/console.log("ServiceWorker registration failed: ", err); }); }); };</script>
+</body>
+
+</html>
