@@ -40,7 +40,7 @@ html {
 body {
     text-align: center;
     background-color: light-dark(#ffffff, #202124);
-    font-family: "Google Sans", "Roboto", sans-serif;
+    font-family: "Google Sans", "Rubik Scribble", "Roboto", sans-serif, system-ui;
     /* font-family: "Rubik Scribble", system-ui; */
     /* font-family: "Workbench", sans-serif; */
     /* font-family: "Sacramento", cursive; */
