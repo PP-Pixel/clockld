@@ -1,11 +1,13 @@
 {
     "name": "Clock LD",
     "short_name": "Clock LD",
-    "description": "Clock LD (端末のライト,ダークモードに対応して背景色と文字色が変更します)",
+    "description": "Clock LD (端末のライト,ダークモードに対応して背景色と文字色が変更します。対応したブラウザが必要です。)",
     "start_url": "https://pp-pixel.github.io/clockld/",
     "id": "Clock LD",
     "display": "fullscreen",
-    "display_override": ["window-controls-overlay"],
+    "display_override": [
+        "window-controls-overlay"
+    ],
     "background_color": "#202124",
     "theme_color": "#202124",
     "icons": [
@@ -13,6 +15,36 @@
             "src": "https://pp-pixel.github.io/clockld/clockld.png",
             "sizes": "966x966",
             "type": "image/png"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "https://pp-pixel.github.io/clockld/screenshot_pc_browser.webp",
+            "sizes": "2880x1920",
+            "type": "image/webp",
+            "platform": "wide",
+            "label": "Screenshot of this Site on computer"
+        },
+        {
+            "src": "https://pp-pixel.github.io/clockld/screenshot_pc_pwa.webp",
+            "sizes": "2880x1920",
+            "type": "image/webp",
+            "platform": "wide",
+            "label": "Screenshot of this PWA-App on computer"
+        },
+        {
+            "src": "https://pp-pixel.github.io/clockld/screenshot_sp_browser.webp",
+            "sizes": "864x1872",
+            "type": "image/webp",
+            "platform": "narrow",
+            "label": "Screenshot of this Site on mobile"
+        },
+        {
+            "src": "https://pp-pixel.github.io/clockld/screenshot_sp_pwa.webp",
+            "sizes": "864x1872",
+            "type": "image/webp",
+            "platform": "narrow",
+            "label": "Screenshot of this PWA-App on mobile"
         }
     ]
 }
